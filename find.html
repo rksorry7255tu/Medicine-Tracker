@@ -1,0 +1,302 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <link rel="stylesheet" src="style.css">
+    <title>My first Website</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Medicine Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="find.html">Find Medicine</a>
+                  </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Technology</a>
+                        <a class="dropdown-item" href="#">Web Development</a>
+                        <a class="dropdown-item" href="#">Tech Fun</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Support</a>
+                        <a class="dropdown-item" href="#">Write for us</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+  
+
+    <div class="container my-4">
+
+      <header>
+        <h1>Medicine Tracker</h1>
+    </header>
+    <main>
+      
+        <section id="input-section">
+            <h2>Enter Medicine Details</h2>
+            <form>
+                <label for="water">Medicine name</label>
+                <input type="text" id="water" />
+                <label for="exercise">Quantity</label>
+                <input type="number" id="exercise" />
+                <label for="bloodsugarlevel">Brand Name</label>
+                <input type="text" id="bloodsugarlevel" />
+                <button id="submit">Submit</button>
+            </form>
+        </section>
+        <section id="output">
+            <h2>Medicine Tracker</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Water Intake (ml)</th>
+                        <th>Exercise (min)</th>
+                        <th>Blood Sugar Level (mg/dL)</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="output-table">
+                    <!-- table data will be generated dynamically -->
+                </tbody>
+            </table>
+        </section>
+        <section id="editSection" class="hidden">
+            <h2>Order Medicine</h2>
+            <form>
+                <label for="water-edit">Medicine name</label>
+                <input type="text" id="water-edit" />
+                <label for="exercise-edit">Quantity</label>
+                <input type="number" id="exercise-edit" />
+                <label for="bloodsugarlevel-edit">Brand Name</label>
+                <input type="Text" id="bloodsugarlevel-edit" />
+                <button id="Place-Order">Place-Order</button>
+                <button id="Conform">Conform</button>
+                <button id="Conform">Cancle</button>
+            </form>
+        </section>
+
+      
+
+      <div class="card-columns">
+        <div class="card">
+          <img src="m7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IBUPROFEN</h5>
+            <p class="card-text">Ibuprofen 200 Mg Mini Softgels Pain Reliever Fever Reducer 500 Count + 240 Count Bundle.</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>25% smaller softgels than regular ibuprofen are easier to swallow while providing the same fast relief..</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Brand	A+Health">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div> -->
+        <div class="card">
+          <img src="m8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Pheniramine</h5>
+            <p class="card-text">www.webmd.com · drugs · 2Phenylephrine-Pheniramine Oral: Uses, Side Effects ... - WebMD.</p>
+            <p class="card-text"><small class="text-muted">This combination medication is used to temporarily relieve symptoms caused by the common cold, flu, allergies, or other breathing illnesses (such as sinusitis,...</small></p>
+          </div>
+        </div>
+         <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>Valium is a benzodiazepine (ben-zoe-dye-AZE-eh-peen). It is thought that diazepam works by enhancing the activity of certain neurotransmitters in the brain. .</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Someone famous in <cite title="Source Title">Pheniramine</cite>
+              </small>
+            </footer>
+          </blockquote> -->
+        </div> 
+        <div class="card text-center"> 
+          <div class="card-body">
+            <h5 class="card-title">Pheniramine</h5>
+            <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="m9.jpg" class="card-img" alt="...">
+        </div>
+        
+          <blockquote class="blockquote mb-0">
+            <p>A well-known quote, contained in a blockquote element.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Valium Diazepum</cite>
+              </small>
+            </footer>
+          </blockquote>
+       
+         <div class="card"> 
+          <div class="card-body">
+            <h5 class="card-title">Valium Diazepum</h5>
+            <p class="card-text">Valium is a type of benzodiazepine that may be prescribed to relieve symptoms of anxiety..</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="card-columns">
+        <div class="card">
+          <img src="m2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dexamethasone</h5>
+            <p class="card-text">Generic name: dexamethasone (oral) [ dex-a-METH-a-sone ]</p>
+          </div>
+          
+        </div>
+        <div class="card p-3"> 
+          <blockquote class="blockquote mb-0 card-body">
+            <p> Brand names: Decadron, DexPak 6 DayTaperpak, Hemady.$4.39
+              at East Greenbush.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Dosage forms: oral concentrate (1 mg/mL), oral liquid (0.5 mg/5 mL), oral tablet (0.5 mg; 0.75 mg; 1 mg; 1.5 mg; 2 mg; 20 mg; 4 mg; 6 mg) <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div> 
+        <div class="card">
+          <img src="m1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aspirine</h5>
+            <p class="card-text">Aspirin (NSAID) Regular Strength Pain Reliever & Fever Reducer Coated Tablets - 500ct - up & up™.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>$4.39
+              at East Greenbush.</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div> 
+         <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Aspirin</h5>
+            <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div> 
+        <div class="card">
+          <img src="m3.jpg" class="card-img" alt="..."></div>
+        <div class="card p-3 text-right">
+          <h5 class="card-title">Hydrocortisone</h5>
+          <blockquote class="blockquote mb-0">
+            <p>Anti-Itch 1% Hydrocortisone Maximum Strength Cream with Aloe - up & up™
+              4.7 out of 5 stars with 984 reviews
+              984
+              8 Questions
+             </p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title=" Only at  target 
+                $6.79
+                at East Greenbush.">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    
+
+    <div class="card-group">
+      <div class="card">
+        <img src="m4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="Carttytle">Ondansetron Odt Coupon</h5>
+          <p class="card-text">Get a free BuzzRx coupon and save up to 78% on Ondansetron Odt This medication is used to treat nausea and vomitting and has an average retail price of $144.40.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="m5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pheniramine maleate salt</h5>
+          <p class="card-text">Enabling you to solve the toughest problems in life science. Complete your research with top quality products..</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="m6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Promithizene</h5>
+          <p class="card-text">Complete your research with top quality products additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 7 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+        <p>D 2020-2021 rksorry, Inc. <a href="find.html">Company </a> by <a
+                href="index.html">@Ravi</a>.</p>
+        <p class="mb-0">
+            <a href="find.html">Back to top</a>
+        </p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="script.js"></script>
+
+   
+
+  
+</body>
+
+</html>
